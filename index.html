@@ -1,0 +1,61 @@
+<html lang="es">
+<head>
+     <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Encriptador</title>
+
+</head>
+<body onresize="resizeBrowser()">
+    <header class="header"> 
+       <img src="Imagenes\Logo.png" alt="Logo de Alura" class="logo">
+    </header>
+    <main class="main">
+        <section>
+            <textarea class= "text-area" cols="30" rows="10" placeholder="Ingrese texto aqui"></textarea>
+            <div>
+                <h6 class="informacion"> Solo letras minúsculas y sin acento </h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()"  >Encriptar </button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()"> Desencriptar </button>
+        </div>
+        </section>
+        <section>
+            <div>
+
+                <textarea class="mensaje" cols="17" rows="5"></textarea>
+            </div>
+                
+            <div class="divimagen">
+                <img src="Imagenes/niño.png" alt="Niño con Lupa" class="niño">
+            </div>
+                
+        <div>
+                <button class="btnCopiar"  onclick="btnCopiar()"> Copiar </button>
+        </section>
+    </main>
+
+<footer class="footer"> 2024***  Desarrollado por: Miriam Rojas Govantes
+    
+    <div class="redes">
+        <a href = "https://www.linkedin.com/in/miriam-rojas-16967927b/">
+            <img src = "Imagenes/linkedin.png" class = "redes__sociales"></a>
+        <a href = "https://github.com/Miriam2600">
+            <img src = "Imagenes/github.png" class = "redes__sociales"></a>
+        <a href = "https://www.instagram.com/miriam.rojas.39794/">
+            <img src = "Imagenes/instagram.png" class = "redes__sociales"></a>
+    </div>
+
+    <script src="script.js"></script>
+</footer>
+</body>
+
+</html>
+
+
